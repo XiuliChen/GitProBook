@@ -1,3 +1,11 @@
 # myProject
 Project created for the software carpentry
+
+
 "git mv" does not actually move the file, but it actually more like renaming the files.
+
+It’s important to understand that git checkout -- <file> 
+is a dangerous command. Any changes you made to that file are
+ gone — Git just copied another file over it.
+ Don’t ever use this command unless you absolutely 
+know that you don’t want the file.
