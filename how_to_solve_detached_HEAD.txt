@@ -1,0 +1,22 @@
+what is a "detached HEAD"?  and how you might have arrived at that state?
+
+With the "git checkout" command, you determine which revision of your project you want to work on.
+ Git then places all of that revision's files in your working copy folder.
+
+Normally, you use a branch name to communicate with "git checkout":
+
+
+when a specific commit is checked out instead of a branch - It is  what's called a "detached HEAD".
+The problem with a detached HEAD
+
+The HEAD pointer in Git determines your current working revision 
+(and thereby the files that are placed in your project's working directory). 
+Normally, when checking out a proper branch name, 
+Git automatically moves the HEAD pointer along when you create a new commit. 
+You are automatically on the newest commit of the chosen branch.
+
+When you instead choose to check out a commit hash, 
+Git won't do this for you. 
+The consequence is that when you make changes and commit them, 
+these changes do NOT belong to any branch.
+
