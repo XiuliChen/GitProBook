@@ -1,7 +1,30 @@
+
 To see which remote servers you have configured, you can run 
 the " git remote"  command.
 
 It lists the shortnames of each remote handle you’ve specified.
 
+For example, origin--this is the default name Git gives to 
+the server you cloned from.
+
+
 git remote add 
 nickName https://github.com/XiuliHChen/StudyGitProBook.git
+
+
+git remote -v
+It shows you the URLs that Git has stored for the shortname to 
+be used when reading and writing to that remote.
+
+git fetch 
+It only downloads the data to you local repository. It does not
+automatically merge it with any of your work or modify what you are 
+currently working on. You have to merge it manually into your work
+when you are ready.
+
+You can use the "git pull" command to automatically fetch then merge
+that remote branch inti you current branch.
+
+Running git pull generally fetches data from the server you
+ originally cloned from and automatically tries to merge
+ it into the code you’re currently working on.
