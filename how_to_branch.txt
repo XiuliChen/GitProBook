@@ -11,3 +11,18 @@ It’s best to have a clean working state when you switch branches.
 
 Commit all the changes in this new branch before switch back to the 
 master branch.
+
+I went back to the master branch. I created a hotfix branch, and fixed 
+the urgent issued arised. Then I merged the master and the hotfix branch.
+then I deleted the hotfix branch.
+
+(1)git checkout master
+(2)git checkout -b hotfix
+(3)git checkout master
+(3)git merge hotfix
+(4)git branch -d hotfix
+
+Finally, I come here to issue53, which was the branch I was working on
+before the hotfix emergency.
+
+git checkout iss53
