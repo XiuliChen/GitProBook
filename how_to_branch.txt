@@ -1,0 +1,13 @@
+git branch iss53 % create a branch
+git checkout iss53 % switch to this new branch
+
+Or 
+
+you could do these two at the same time
+
+git checkout -b iss53
+
+It’s best to have a clean working state when you switch branches. 
+
+Commit all the changes in this new branch before switch back to the 
+master branch.
