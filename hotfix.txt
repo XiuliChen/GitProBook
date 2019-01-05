@@ -1,2 +1,14 @@
 the hotfix branch is created to fix the broken email address.
+We are now making  changes on the file hotfix.txt  at the branch issue54. 
+we are going to back to master branch, create a new branch hotfix2 
+and then make the changes on the same file. Then we merge master and hotfix2
 
+then we delete the hitfix2 branch 
+go back to iss54 branch, do more work on branch iss54.
+
+Then we decide to merge Master and branch iss54
+
+There should be Merge confict, as we changed the same part of the same file
+differently in two branches. Git won't be able to merge them cleanly. 
+
+Now let us go and try this excercise.
